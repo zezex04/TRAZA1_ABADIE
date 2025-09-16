@@ -10,8 +10,8 @@ import java.util.Set;
 
 @SuperBuilder // Para crear un patrón Builder que funciona con herencia
 @Data // Genera getters, setters, equals, hashCode y toString automáticamente
-@ToString // Genera metodo toString (redundante porque @Data ya lo incluye)
-@Builder // Para crear un patrón Builder básico (conflicto con @SuperBuilder)
+@ToString // Genera metodo toString
+
 
 public class Localidad {
     private Long id;

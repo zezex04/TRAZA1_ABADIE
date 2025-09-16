@@ -9,11 +9,11 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
-@ToString
-
+@ToString(exclude = "provincias")
+@EqualsAndHashCode(exclude = "provincias")
 
 public class Pais {
-    private long id;
+    private Long id;
     private String nombre;
 
     @Builder.Default

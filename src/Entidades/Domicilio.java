@@ -9,6 +9,9 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @ToString(exclude = "sucursal")
 
+//Acordarse que solo puede ir uno de los builders, no los dos juntos
+//No usar @Builder y @SuperBuilder juntos
+
 public class Domicilio {
     private Long id;
     private String calle;
