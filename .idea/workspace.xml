@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="864d54ff-93ea-4f22-a313-42f4f0a20b1b" name="Changes" comment="">
+    <list default="true" id="864d54ff-93ea-4f22-a313-42f4f0a20b1b" name="Changes" comment="pais">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entidades/Domicilio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/Domicilio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entidades/Pais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/Pais.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,22 +24,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "zezex04"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zezex04&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/zezex04/TRAZA1_ABADIE.git",
-    "accountId": "93012bda-036a-47c4-b93d-b10339f188e1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zezex04/TRAZA1_ABADIE.git&quot;,
+    &quot;accountId&quot;: &quot;93012bda-036a-47c4-b93d-b10339f188e1&quot;
   }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -52,6 +54,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -86,7 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1757978189270</updated>
       <workItem from="1757978190467" duration="229000" />
-      <workItem from="1757978493542" duration="5938000" />
+      <workItem from="1757978493542" duration="6116000" />
+      <workItem from="1757985692574" duration="412000" />
     </task>
     <task id="LOCAL-00001" summary="creacion de clases">
       <option name="closed" value="true" />
@@ -128,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757985046114</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pais">
+      <option name="closed" value="true" />
+      <created>1757985501809</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757985501809</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +173,8 @@
     <MESSAGE value="creacion de clases" />
     <MESSAGE value="remove unnecessary comments and streamline main method" />
     <MESSAGE value="pude importar lombok  de manera correcta, no lo tenia bien instalado" />
-    <option name="LAST_COMMIT_MESSAGE" value="pude importar lombok  de manera correcta, no lo tenia bien instalado" />
+    <MESSAGE value="pais" />
+    <option name="LAST_COMMIT_MESSAGE" value="pais" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
