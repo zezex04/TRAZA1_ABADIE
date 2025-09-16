@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="864d54ff-93ea-4f22-a313-42f4f0a20b1b" name="Changes" comment="remove unnecessary comments and streamline main method">
-      <change afterPath="$PROJECT_DIR$/src/Entidades/Domicilio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entidades/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entidades/Localidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entidades/Pais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entidades/Provincia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entidades/Sucursal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="864d54ff-93ea-4f22-a313-42f4f0a20b1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Entidades/Pais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/Pais.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +65,7 @@
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "preferences.language.Kotlin",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -92,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757978189270</updated>
       <workItem from="1757978190467" duration="229000" />
-      <workItem from="1757978493542" duration="5455000" />
+      <workItem from="1757978493542" duration="5938000" />
     </task>
     <task id="LOCAL-00001" summary="creacion de clases">
       <option name="closed" value="true" />
@@ -126,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757983373291</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pude importar lombok  de manera correcta, no lo tenia bien instalado">
+      <option name="closed" value="true" />
+      <created>1757985046114</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757985046114</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +160,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creacion de clases" />
     <MESSAGE value="remove unnecessary comments and streamline main method" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove unnecessary comments and streamline main method" />
+    <MESSAGE value="pude importar lombok  de manera correcta, no lo tenia bien instalado" />
+    <option name="LAST_COMMIT_MESSAGE" value="pude importar lombok  de manera correcta, no lo tenia bien instalado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -170,5 +173,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

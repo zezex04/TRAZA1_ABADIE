@@ -8,4 +8,8 @@ import lombok.*;
 
 
 public class Pais {
+    private long id;
+    private String nombre;
+
+
 }
