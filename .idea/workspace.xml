@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="864d54ff-93ea-4f22-a313-42f4f0a20b1b" name="Changes" comment="creacion de clases">
-      <change beforePath="$PROJECT_DIR$/Traza1/src/Entidades/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Traza1/src/Entidades/Empresa.java" afterDir="false" />
+    <list default="true" id="864d54ff-93ea-4f22-a313-42f4f0a20b1b" name="Changes" comment="remove unnecessary comments and streamline main method">
+      <change afterPath="$PROJECT_DIR$/src/Entidades/Domicilio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entidades/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entidades/Localidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entidades/Pais.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entidades/Provincia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entidades/Sucursal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Traza1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -34,6 +40,10 @@
     "accountId": "93012bda-036a-47c4-b93d-b10339f188e1"
   }
 }]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -44,8 +54,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -55,8 +67,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/ezequ/Downloads/DESARROLLO DE SOFTWARE/TRAZA1_ABADIE/gradle/src/Main.java",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "onboarding.tips.debug.path": "C:/Users/ezequ/Downloads/DESARROLLO DE SOFTWARE/TRAZA1_ABADIE/src/src/Main.java",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -77,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757978189270</updated>
       <workItem from="1757978190467" duration="229000" />
-      <workItem from="1757978493542" duration="3369000" />
+      <workItem from="1757978493542" duration="5455000" />
     </task>
     <task id="LOCAL-00001" summary="creacion de clases">
       <option name="closed" value="true" />
@@ -87,24 +102,67 @@
       <option name="project" value="LOCAL" />
       <updated>1757978983751</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creacion de clases">
+      <option name="closed" value="true" />
+      <created>1757983011432</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757983011432</updated>
+    </task>
+    <task id="LOCAL-00003" summary="creacion de clases">
+      <option name="closed" value="true" />
+      <created>1757983075878</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757983075878</updated>
+    </task>
+    <task id="LOCAL-00004" summary="remove unnecessary comments and streamline main method">
+      <option name="closed" value="true" />
+      <created>1757983373291</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757983373291</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creacion de clases" />
-    <option name="LAST_COMMIT_MESSAGE" value="creacion de clases" />
+    <MESSAGE value="remove unnecessary comments and streamline main method" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unnecessary comments and streamline main method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/gradle/src/Main.java</url>
           <line>11</line>
