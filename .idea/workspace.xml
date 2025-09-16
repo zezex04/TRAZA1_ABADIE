@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="864d54ff-93ea-4f22-a313-42f4f0a20b1b" name="Changes" comment="creacion de InMemoryRepository">
-      <change afterPath="$PROJECT_DIR$/src/Repositorios/EmpresaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repositorios/InMemoryEmpresaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Entidades/Empresa$EmpresaBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Entidades/Empresa$EmpresaBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Entidades/Empresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Entidades/Empresa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Entidades/Localidad$LocalidadBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Entidades/Localidad$LocalidadBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Entidades/Pais$PaisBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Entidades/Pais$PaisBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Entidades/Pais.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Entidades/Pais.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Entidades/Provincia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Entidades/Provincia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAZA1_ABADIE/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entidades/Domicilio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/Domicilio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entidades/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/Empresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entidades/Localidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/Localidad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entidades/Pais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/Pais.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entidades/Provincia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/Provincia.java" afterDir="false" />
+    <list default="true" id="864d54ff-93ea-4f22-a313-42f4f0a20b1b" name="Changes" comment="empresa">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +15,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -107,8 +91,7 @@
       <updated>1757978189270</updated>
       <workItem from="1757978190467" duration="229000" />
       <workItem from="1757978493542" duration="6116000" />
-      <workItem from="1757985692574" duration="3394000" />
-      <workItem from="1758030967815" duration="5944000" />
+      <workItem from="1757985692574" duration="2348000" />
     </task>
     <task id="LOCAL-00001" summary="creacion de clases">
       <option name="closed" value="true" />
@@ -190,39 +173,7 @@
       <option name="project" value="LOCAL" />
       <updated>1757989848428</updated>
     </task>
-    <task id="LOCAL-00011" summary="localidad">
-      <option name="closed" value="true" />
-      <created>1757989986065</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1757989986065</updated>
-    </task>
-    <task id="LOCAL-00012" summary="provincia">
-      <option name="closed" value="true" />
-      <created>1757990289983</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1757990289983</updated>
-    </task>
-    <task id="LOCAL-00013" summary="creacion de InMemoryRepository">
-      <option name="closed" value="true" />
-      <created>1758032635163</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1758032635163</updated>
-    </task>
-    <task id="LOCAL-00014" summary="creacion de InMemoryRepository">
-      <option name="closed" value="true" />
-      <created>1758034771033</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1758034771033</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,11 +210,7 @@
     <MESSAGE value="ver" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="empresa" />
-    <MESSAGE value="localidad" />
-    <MESSAGE value="provincia" />
-    <MESSAGE value="InMemoryRepository creo que terminado" />
-    <MESSAGE value="creacion de InMemoryRepository" />
-    <option name="LAST_COMMIT_MESSAGE" value="creacion de InMemoryRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="empresa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -273,10 +220,6 @@
           <line>11</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.StackOverflowError" package="java.lang" />
-          <option name="timeStamp" value="4" />
-        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

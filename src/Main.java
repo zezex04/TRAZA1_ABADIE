@@ -114,7 +114,6 @@ public class Main {
                 .domicilio(domicilio3)
                 .build();
         //	Crear  la Sucursal4 y relacionarla con el domicilio de Villa Carlos Paz.
-        //(la consigna dice crear sucursal 2 pero ya la creamos para La Plata).
         Sucursal sucursal4 = Sucursal.builder()
                 .id(1L)
                 .nombre("Sucursal 4")
@@ -123,7 +122,6 @@ public class Main {
                 .es_Casa_Matriz(false)
                 .domicilio(domicilio4)
                 .build();
-
 
         //Crear la Empresa1 y relacionarlas con la sucursal 1 y 2.
         Empresa empresa1 = Empresa.builder()
@@ -141,18 +139,17 @@ public class Main {
                 .sucursales(new HashSet<>(Set.of(sucursal3, sucursal4)))
                 .build();
 
-
         // Crear repositorio y guardar empresas
         InMemoryEmpresaRepository empresaRepo = new InMemoryEmpresaRepository();
         empresaRepo.save(empresa1);
         empresaRepo.save(empresa2);
 
-// a. Mostrar todas las empresas
+        // a. Mostrar todas las empresas
         System.out.println("=== TODAS LAS EMPRESAS ===");
         List<Empresa> todasEmpresas = empresaRepo.findAll();
         todasEmpresas.forEach(System.out::println);
 
-// b. Buscar empresa por ID
+        // b. Buscar empresa por ID
         System.out.println("\n=== BUSCAR POR ID (1) ===");
         Optional<Empresa> empresaPorId = empresaRepo.findById(1L);
         empresaPorId.ifPresentOrElse(
@@ -160,7 +157,7 @@ public class Main {
                 () -> System.out.println("Empresa no encontrada")
         );
 
-// c. Buscar empresa por nombre
+        // c. Buscar empresa por nombre
         System.out.println("\n=== BUSCAR POR NOMBRE (empresa1) ===");
         Optional<Empresa> empresaPorNombre = empresaRepo.findByNombre("empresa1");
         empresaPorNombre.ifPresentOrElse(
@@ -168,7 +165,7 @@ public class Main {
                 () -> System.out.println("Empresa no encontrada")
         );
 
-// d. Actualizar datos de empresa (modificar CUIT)
+        // d. Actualizar datos de empresa (modificar CUIT)
         System.out.println("\n=== ACTUALIZAR EMPRESA ===");
         Optional<Empresa> empresaActualizar = empresaRepo.findById(1L);
         if (empresaActualizar.isPresent()) {
@@ -179,7 +176,7 @@ public class Main {
             System.out.println("CUIT actualizado: " + emp.getCuit());
         }
 
-// e. Eliminar empresa por ID
+        // e. Eliminar empresa por ID
         System.out.println("\n=== ELIMINAR EMPRESA ===");
         System.out.println("Empresas antes de eliminar: " + empresaRepo.findAll().size());
         empresaRepo.deleteById(2L);
@@ -189,6 +186,5 @@ public class Main {
         sucursal2.setEmpresa(empresa1);
         sucursal3.setEmpresa(empresa2);
         sucursal4.setEmpresa(empresa2);
-
     }
 }
